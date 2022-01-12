@@ -1,6 +1,7 @@
 <h2><u>Welcome to Keypad Interface Personal Project using VHDL</u></h2>
 <p>
- This entity interfaces with a 4x4 keypad.<br><br>
+ This entity interfaces with a 4x4 keypad.<br>
+ It is necessary to connect pull-down resistors to the ground at the inputs of the columns in order to get a valid logic value.<br><br>
 </p>
 <h4><u>Files included:</u></h4>
 <u></u>
