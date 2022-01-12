@@ -5,35 +5,32 @@
 <h4><u>Files included:</u></h4>
 <u></u>
 <p>
-- uartTransceiver.vhd    =>  Entity RTL Code<br>
-- uartTransmitter.vhd    =>  Entity RTL Code<br>
-- uartTransmitterTB.vhd  =>  Testbench RTL Code<br>
-- uartReceiver.vhd   =>  Entity RTL Code<br>
-- uartReceiverTB.vhd  =>  Testbench RTL Code<br>
-- uartTransceiverBlock.JPG  =>  Transceiver Entity block<br><br>
+- clockDivider.vhd          =>  Entity RTL Code<br>
+- keypadInterface.vhd       =>  Entity RTL Code<br>
+- keypadInterfaceTB.vhd     =>  Testbench RTL Code<br>
+- KeypadInterfaceBlock.JPG  =>  Transceiver Entity block<br>
+- KeypadInterface.JPG       =>  The design shell<br>
+- keypadInterfaceTB.JPG     =>  Testbench RTL Code<br>
+- keypadInterfaceTB1.JPG    =>  Testbench RTL Code<br>
+- keypadInterfaceTB2.JPG    =>  Testbench RTL Code<br>
+- 4x4 pinout.JPG            =>  4x4 matrix kyepad pinout<br>
+- ASCII Table.JPG.JPG       =>  ASCII Table<br><br>
 </p>
 <table>
     <tr>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/uartTransceiverBlock.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Receiver/images/uartReceiverBlock.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Receiver/images/Rx%20FSM.JPG" alt=""></td>  
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/KeypadInterfaceBlock.JPG" alt=""></td>
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/KeypadInterface.JPG" alt=""></td>
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/keypadInterfaceTB.JPG" alt=""></td>  
      </tr>
      <tr>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Receiver/images/uartReceiverTB_messages.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Receiver/images/uartReceiverTB.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Receiver/images/uartReceiverTB1.JPG" alt=""></td>
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/keypadInterfaceTB1.JPG" alt=""></td>
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/keypadInterfaceTB2.JPG" alt=""></td>
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/4x4%20pinout.JPG" alt=""></td>
    	 </tr>
      <tr>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Receiver/images/error%20found%20while%20debugging.jpg" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Transmitter/images/uartTransmitterBlock.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Transmitter/images/Tx%20FSM.JPG" alt=""></td>
+            <td><img src="https://github.com/Matanlaza89/Keypad-Interface/blob/main/images/ASCII%20Table.JPG" alt=""></td>
    	 </tr>
-     <tr>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Transmitter/images/uartTransmitterTB_messages.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Transmitter/images/uartTransmitterTB.JPG" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/UART-Transceiver/blob/main/Transmitter/images/uartTransmitterTB1.JPG" alt=""></td>
-   	 </tr>
-</table>
+
 
 <h1><u>Testbench Tasks</u></h1>
 <p>
