@@ -139,8 +139,10 @@ begin
 						r_char <= C_KEYPAD_MATRIX(0)(1);
 					elsif (i_columns = X"4") then -- key '7' pressed
 						r_char <= C_KEYPAD_MATRIX(0)(2);
-					else -- key '*' pressed
+					elsif (i_columns = X"8") then -- key '*' pressed
 						r_char <= C_KEYPAD_MATRIX(0)(3);
+					else -- two buttons or more were pressed
+						r_char <= 'U';
 					end if; -- i_columns
 					
 					-- Update outputs --
@@ -159,8 +161,10 @@ begin
 						r_char <= C_KEYPAD_MATRIX(1)(1);
 					elsif (i_columns = X"4") then -- key '8' pressed
 						r_char <= C_KEYPAD_MATRIX(1)(2);
-					else -- key '0' pressed
+					elsif (i_columns = X"8") then -- key '0' pressed
 						r_char <= C_KEYPAD_MATRIX(1)(3);
+					else -- two buttons or more were pressed
+						r_char <= 'U';
 					end if; -- i_columns
 					
 					-- Update outputs --
@@ -179,8 +183,10 @@ begin
 						r_char <= C_KEYPAD_MATRIX(2)(1);
 					elsif (i_columns = X"4") then -- key '9' pressed
 						r_char <= C_KEYPAD_MATRIX(2)(2);
-					else -- key '#' pressed
+					elsif (i_columns = X"8") then -- key '#' pressed
 						r_char <= C_KEYPAD_MATRIX(2)(3);
+					else -- two buttons or more were pressed
+						r_char <= 'U';
 					end if; -- i_columns
 					
 					-- Update outputs --
@@ -199,8 +205,10 @@ begin
 						r_char <= C_KEYPAD_MATRIX(3)(1);
 					elsif (i_columns = X"4") then -- key 'C' pressed
 						r_char <= C_KEYPAD_MATRIX(3)(2);
-					else -- key 'D' pressed
+					elsif (i_columns = X"8") then -- key 'D' pressed
 						r_char <= C_KEYPAD_MATRIX(3)(3);
+					else -- two buttons or more were pressed
+						r_char <= 'U';
 					end if; -- i_columns
 					
 					-- Update outputs --
